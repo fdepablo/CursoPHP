@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="02_recibirFormularioCompleto.php">
+		<p>
+			<label>Nombre de cliente: <input name="name" placeholder="Nombre"/></label>
+		</p>
+		<p>
+			<label>Telephone: <input type=number name="telephone"/></label>
+		</p>
+		<p>
+			<label>E-mail: <input type=text name="mail"/></label>
+		</p>
+		<fieldset>
+			<legend> Tamaño de Pizza </legend>
+			<p>
+				<label> <input type=radio name=size value="small"/>
+					pequeña
+				</label>
+			</p>
+			<p>
+				<label> <input type=radio name=size value="medium"/>
+					Mediana
+				</label>
+			</p>
+			<p>
+				<label> <input type=radio name=size value="large">
+					Grande
+				</label>
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend> Ingredientes de la Pizza </legend>
+			<p>
+				<label> <input type=checkbox name="topping[]" value="bacon">
+					Bacon
+				</label>
+			</p>
+			<p>
+				<label> <input type=checkbox name="topping[]" value="cheese">
+					Extra de queso
+				</label>
+			</p>
+			<p>
+				<label> <input type=checkbox name="topping[]" value="onion">
+					Cebolla
+				</label>
+			</p>
+			<p>
+				<label> <input type=checkbox name="topping[]" value="mushroom">
+					Champi?on
+				</label>
+			</p>
+		</fieldset>
+
+		<p>
+			<label>Instrucciones al repartidor: <textarea name="comments"></textarea></label>
+		</p>
+		<p>
+			<button>Enviar Pedido</button>
+		<p>
+
+
+		<input type="submit" name="botonSubmit"></input>
+	</form>
+</body>
+</html>

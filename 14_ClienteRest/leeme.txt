@@ -1,0 +1,5 @@
+ Se utilizo composer como gestor de dependencias para hacer este proyecto
+ Se utilizo Guzzle como api de peticiones REST
+ "composer require guzzlehttp/guzzle"
+ Manual de referencia de guzzle
+ http://docs.guzzlephp.org/en/stable/index.html

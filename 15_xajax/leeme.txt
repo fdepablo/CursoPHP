@@ -1,0 +1,4 @@
+Se utilizo la ultima versión estable de xajax la 0.5
+Aun así se tuvo que tocar algo de las librerias ya que daban errores de compilación
+En general se cambio los "$variable = & new Objeto()" por "$variable = new Objeto()"
+para adaptarlo a las nuevas versiones de PHP

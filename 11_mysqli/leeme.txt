@@ -1,0 +1,19 @@
+
+Esta aplicación simula unos accesos a bbdd mediante el nuevo estadar
+de conexion mysqli, el anterior (myslq sin la 'i') se considera obsolete
+desde la version 5 de php
+
+La aplicación esta dividad en varios ficheros php, cada uno haciendo
+la función que le corresponde.
+
+1- En la carpeta mysqli_utils se encuentra un ficheor php que realiza
+la conexión a la bbdd "php"
+2- En la carpeta "modelo" se puede dividir a su vez en:
+    2.1 La carpeta "entidades" tiene la entidad alumno que es con la que vamos
+    a trabajar. Una entidad suele representar un registro de una tabla de 
+    bbdd. En este caso, representará un registro alumno.
+    2.2 la carpeta "DAO" representa un patron DAO de alumno. Es una clase
+    que se encarga de trabajar con la tabla alumnos (haciendo un CRUD basico)
+3- los ficheros que estan en este mismo directorio y que van del 01 al 04
+corresponden a las cuatro operaciones basicas que vamos a hacer con los usuarios
+un CRUD.

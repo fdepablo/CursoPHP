@@ -1,0 +1,12 @@
+En la carpeta vista, tenemos el inicio a nuestra pagina web que hace un CRUD
+de los alumnos
+
+Los php de DAO, entidades y Conexiones son iguales que en el ejemplo
+anterior
+
+Cosas nuevas:
+el GestorAlumno que esta en la carpeta de negocio, que a su
+vez esta dentro de la carpeta modelo
+La vista que se encarga de mostrar y mandar la información
+El ControladorAlumno, que se encarga de comunicar al vista con el modelo
+y tomar decion de que vistas mostrar
