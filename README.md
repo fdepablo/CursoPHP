@@ -1,39 +1,8 @@
- Instalar este curso
----------------------
-Instalar wamp o xammp (un todo en uno que incluye, Apache, Php y Mysql)
+![PHP](img/php.svg "Aprende PHP!!")
 
-En caso de instalar el wamp hay que pegar "CursoPHP" dentro del directorio "www"
-de donde hayamos instalado el wamp.
-En caso de xammp hay que pegar los fichero php en el directorio
-"C:\xampp\htdocs" de donde hayamos instalado el xammp
-Descargarse Visual Stuidio Code, Atom o Eclipse PHP 
-En cado de usar Eclipse PHP, "www" sera el workspace que tenemos que abrir, e importar
-el proyecto "CursoPHP" que hemos pegado previamente en "www"
-Si utilizamos otro IDE, solo es necesaro arir el directorio "CursoPHP"
+# PHP
 
-Los ejemplos vienen numerados segun el orden
-
-Manual de referencia php en español (oficial)
-https://www.php.net/manual/es/
-
------------------------------------
-Para el ejemplo del 11_misqli y 12_mvc
------------------------------------
-Crear una base de datos Mysql de nombre 'php' (con phpadmin)
-Crear dentro una tabla de nombre 'alumnos' con los siguientes campos:
--'id' clave primaria y autoincremental
--'nombre' varchar
--'direccion' varchar
--'telefono' varchar
-
-Es una aplicación que hace un CRUD de alumnos en una misma página web
-siguiendo el patron MVC
-
------------------------------------------------------------------------
-
- PHP Caracteristicas
------------------
-Orientado al desarrollo de aplicaciones web dinámicas con acceso a información
+PHP es un lenguaje orientado al desarrollo de aplicaciones web dinámicas con acceso a información
 almacenada en una base de datos.
 
 Es considerado un lenguaje facil de aprender, ya que en su desarrollo se
@@ -73,3 +42,32 @@ lógica de control y la interfaz de usuario en tres componentes independientes.
 
 Debido a su flexibilidad ha tenido una gran acogida como lenguaje base para las
 aplicaciones WEB de manejo de contenido, y es su uso principal.
+
+## Instalar este curso
+
+1. Instalar wamp o xammp (un todo en uno que incluye, Apache, Php y Mysql)
+
+   - En caso de instalar el wamp hay que pegar "CursoPHP" dentro del directorio "www"
+    de donde hayamos instalado el wamp.
+   - En caso de xammp hay que pegar los fichero php en el directorio
+   "C:\xampp\htdocs" de donde hayamos instalado el xammp
+
+2. Descargarse Visual Studio Code, Atom, Eclipse PHP o el IDE preferido. Originalmente
+se penso para Visual Studio Code
+
+## Instalación para el ejemplo del 11_misqli y 12_mvc
+
+Es una aplicación que hace un CRUD de alumnos en una misma página web
+siguiendo el patron MVC
+
+1. Crear una base de datos Mysql de nombre 'php' (con phpadmin)
+2. Crear dentro una tabla de nombre 'alumnos' con los siguientes campos:
+   - 'id' clave primaria y autoincremental
+   - 'nombre' varchar
+   - 'direccion' varchar
+   - 'telefono' varchar
+   
+## Bibliografía
+
+- Manual de referencia php en español (oficial)
+[https://www.php.net/manual/es/](https://www.php.net/manual/es/)
